@@ -23,7 +23,7 @@ func main() {
 	var ptr = &x
 	fmt.Println("value of actual pointer:", ptr)  // & - gives the memory address of the value
 	fmt.Println("value of actual pointer:", *ptr) // * - gives the actual value
-
+ fmt.Prinln(ptr +1)
 	*ptr += 30
 	fmt.Println("value of x:", x)
 
