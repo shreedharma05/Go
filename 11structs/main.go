@@ -18,7 +18,7 @@ func main() {
 	}
 
 	//
-	fmt.Println(personPtr)            // Output: Bob
+	fmt.Println(*personPtr)           // Output:
 	fmt.Println(personPtr.Age)        // Output: 25
 	fmt.Println(personPtr.Occupation) // Output: Teacher
 

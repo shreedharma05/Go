@@ -33,7 +33,7 @@ func encodeJson() {
 	if err != nil {
 		panic(err)
 	}
-
+	// fmt.Println(jsonData)
 	fmt.Println(string(jsonData))
 }
 
